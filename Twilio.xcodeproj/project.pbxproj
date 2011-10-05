@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70C7790E143BEA2D00D33CA5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C7790D143BEA2C00D33CA5 /* Cocoa.framework */; };
+		70C77918143BEA2D00D33CA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70C77916143BEA2D00D33CA5 /* InfoPlist.strings */; };
+		70C7791A143BEA2D00D33CA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C77919143BEA2D00D33CA5 /* main.m */; };
+		70C7791E143BEA2D00D33CA5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 70C7791C143BEA2D00D33CA5 /* Credits.rtf */; };
+		70C77921143BEA2D00D33CA5 /* TwilioAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C77920143BEA2D00D33CA5 /* TwilioAppDelegate.m */; };
+		70C77924143BEA2D00D33CA5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C77922143BEA2D00D33CA5 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		70C77909143BEA2C00D33CA5 /* Twilio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twilio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C7790D143BEA2C00D33CA5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		70C77910143BEA2D00D33CA5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		70C77911143BEA2D00D33CA5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		70C77912143BEA2D00D33CA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		70C77915143BEA2D00D33CA5 /* Twilio-Info.plist */ = {isa = PBXFileReference; path = "Twilio-Info.plist"; sourceTree = "<group>"; };
+		70C77917143BEA2D00D33CA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		70C77919143BEA2D00D33CA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70C7791B143BEA2D00D33CA5 /* Twilio-Prefix.pch */ = {isa = PBXFileReference; path = "Twilio-Prefix.pch"; sourceTree = "<group>"; };
+		70C7791D143BEA2D00D33CA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		70C7791F143BEA2D00D33CA5 /* TwilioAppDelegate.h */ = {isa = PBXFileReference; path = TwilioAppDelegate.h; sourceTree = "<group>"; };
+		70C77920143BEA2D00D33CA5 /* TwilioAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwilioAppDelegate.m; sourceTree = "<group>"; };
+		70C77923143BEA2D00D33CA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70C77906143BEA2C00D33CA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70C7790E143BEA2D00D33CA5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70C778FE143BEA2B00D33CA5 = {
+			isa = PBXGroup;
+			children = (
+				70C77913143BEA2D00D33CA5 /* Twilio */,
+				70C7790C143BEA2C00D33CA5 /* Frameworks */,
+				70C7790A143BEA2C00D33CA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70C7790A143BEA2C00D33CA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70C77909143BEA2C00D33CA5 /* Twilio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70C7790C143BEA2C00D33CA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70C7790D143BEA2C00D33CA5 /* Cocoa.framework */,
+				70C7790F143BEA2D00D33CA5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70C7790F143BEA2D00D33CA5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70C77910143BEA2D00D33CA5 /* AppKit.framework */,
+				70C77911143BEA2D00D33CA5 /* CoreData.framework */,
+				70C77912143BEA2D00D33CA5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		70C77913143BEA2D00D33CA5 /* Twilio */ = {
+			isa = PBXGroup;
+			children = (
+				70C7791F143BEA2D00D33CA5 /* TwilioAppDelegate.h */,
+				70C77920143BEA2D00D33CA5 /* TwilioAppDelegate.m */,
+				70C77922143BEA2D00D33CA5 /* MainMenu.xib */,
+				70C77914143BEA2D00D33CA5 /* Supporting Files */,
+			);
+			path = Twilio;
+			sourceTree = "<group>";
+		};
+		70C77914143BEA2D00D33CA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70C77915143BEA2D00D33CA5 /* Twilio-Info.plist */,
+				70C77916143BEA2D00D33CA5 /* InfoPlist.strings */,
+				70C77919143BEA2D00D33CA5 /* main.m */,
+				70C7791B143BEA2D00D33CA5 /* Twilio-Prefix.pch */,
+				70C7791C143BEA2D00D33CA5 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70C77908143BEA2C00D33CA5 /* Twilio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70C77927143BEA2D00D33CA5 /* Build configuration list for PBXNativeTarget "Twilio" */;
+			buildPhases = (
+				70C77905143BEA2C00D33CA5 /* Sources */,
+				70C77906143BEA2C00D33CA5 /* Frameworks */,
+				70C77907143BEA2C00D33CA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Twilio;
+			productName = Twilio;
+			productReference = 70C77909143BEA2C00D33CA5 /* Twilio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70C77900143BEA2B00D33CA5 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 70C77903143BEA2B00D33CA5 /* Build configuration list for PBXProject "Twilio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 70C778FE143BEA2B00D33CA5;
+			productRefGroup = 70C7790A143BEA2C00D33CA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70C77908143BEA2C00D33CA5 /* Twilio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70C77907143BEA2C00D33CA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70C77918143BEA2D00D33CA5 /* InfoPlist.strings in Resources */,
+				70C7791E143BEA2D00D33CA5 /* Credits.rtf in Resources */,
+				70C77924143BEA2D00D33CA5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70C77905143BEA2C00D33CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70C7791A143BEA2D00D33CA5 /* main.m in Sources */,
+				70C77921143BEA2D00D33CA5 /* TwilioAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		70C77916143BEA2D00D33CA5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70C77917143BEA2D00D33CA5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		70C7791C143BEA2D00D33CA5 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70C7791D143BEA2D00D33CA5 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		70C77922143BEA2D00D33CA5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70C77923143BEA2D00D33CA5 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70C77925143BEA2D00D33CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		70C77926143BEA2D00D33CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		70C77928143BEA2D00D33CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twilio/Twilio-Prefix.pch";
+				INFOPLIST_FILE = "Twilio/Twilio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		70C77929143BEA2D00D33CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twilio/Twilio-Prefix.pch";
+				INFOPLIST_FILE = "Twilio/Twilio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70C77903143BEA2B00D33CA5 /* Build configuration list for PBXProject "Twilio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70C77925143BEA2D00D33CA5 /* Debug */,
+				70C77926143BEA2D00D33CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70C77927143BEA2D00D33CA5 /* Build configuration list for PBXNativeTarget "Twilio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70C77928143BEA2D00D33CA5 /* Debug */,
+				70C77929143BEA2D00D33CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70C77900143BEA2B00D33CA5 /* Project object */;
+}
