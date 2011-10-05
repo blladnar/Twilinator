@@ -10,8 +10,11 @@
 
 @interface TwilioAppDelegate : NSObject <NSApplicationDelegate> {
    NSWindow *window;
+   IBOutlet NSTextField *textField;
+   IBOutlet NSTextField *phoneNumberField;
 }
 
 @property (assign) IBOutlet NSWindow *window;
+- (IBAction)sendText:(id)sender;
 
 @end

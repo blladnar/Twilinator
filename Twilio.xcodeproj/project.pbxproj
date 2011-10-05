@@ -13,6 +13,23 @@
 		70C7791E143BEA2D00D33CA5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 70C7791C143BEA2D00D33CA5 /* Credits.rtf */; };
 		70C77921143BEA2D00D33CA5 /* TwilioAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C77920143BEA2D00D33CA5 /* TwilioAppDelegate.m */; };
 		70C77924143BEA2D00D33CA5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C77922143BEA2D00D33CA5 /* MainMenu.xib */; };
+		70C7793F143BEA7000D33CA5 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C7792E143BEA7000D33CA5 /* ASIDataCompressor.m */; };
+		70C77940143BEA7000D33CA5 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C77930143BEA7000D33CA5 /* ASIDataDecompressor.m */; };
+		70C77941143BEA7000D33CA5 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C77932143BEA7000D33CA5 /* ASIDownloadCache.m */; };
+		70C77942143BEA7000D33CA5 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C77934143BEA7000D33CA5 /* ASIFormDataRequest.m */; };
+		70C77943143BEA7000D33CA5 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C77936143BEA7000D33CA5 /* ASIHTTPRequest.m */; };
+		70C77944143BEA7000D33CA5 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C7793A143BEA7000D33CA5 /* ASIInputStream.m */; };
+		70C77945143BEA7000D33CA5 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C7793C143BEA7000D33CA5 /* ASINetworkQueue.m */; };
+		70C77948143BEA9700D33CA5 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C77947143BEA9700D33CA5 /* CoreServices.framework */; };
+		70C7794A143BEABA00D33CA5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C77949143BEABA00D33CA5 /* SystemConfiguration.framework */; };
+		70C7794C143BEAC300D33CA5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C7794B143BEAC300D33CA5 /* libz.dylib */; };
+		70C7794F143BF4E500D33CA5 /* Twilinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C7794E143BF4E500D33CA5 /* Twilinator.m */; };
+		70C77962143BFB9E00D33CA5 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C77957143BFB9E00D33CA5 /* NSObject+SBJSON.m */; };
+		70C77963143BFB9E00D33CA5 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C77959143BFB9E00D33CA5 /* NSString+SBJSON.m */; };
+		70C77964143BFB9E00D33CA5 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C7795B143BFB9E00D33CA5 /* SBJSON.m */; };
+		70C77965143BFB9E00D33CA5 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C7795D143BFB9E00D33CA5 /* SBJsonBase.m */; };
+		70C77966143BFB9E00D33CA5 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C7795F143BFB9E00D33CA5 /* SBJsonParser.m */; };
+		70C77967143BFB9E00D33CA5 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C77961143BFB9E00D33CA5 /* SBJsonWriter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +38,50 @@
 		70C77910143BEA2D00D33CA5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		70C77911143BEA2D00D33CA5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		70C77912143BEA2D00D33CA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		70C77915143BEA2D00D33CA5 /* Twilio-Info.plist */ = {isa = PBXFileReference; path = "Twilio-Info.plist"; sourceTree = "<group>"; };
+		70C77915143BEA2D00D33CA5 /* Twilio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Twilio-Info.plist"; sourceTree = "<group>"; };
 		70C77917143BEA2D00D33CA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		70C77919143BEA2D00D33CA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		70C7791B143BEA2D00D33CA5 /* Twilio-Prefix.pch */ = {isa = PBXFileReference; path = "Twilio-Prefix.pch"; sourceTree = "<group>"; };
+		70C7791B143BEA2D00D33CA5 /* Twilio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Twilio-Prefix.pch"; sourceTree = "<group>"; };
 		70C7791D143BEA2D00D33CA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		70C7791F143BEA2D00D33CA5 /* TwilioAppDelegate.h */ = {isa = PBXFileReference; path = TwilioAppDelegate.h; sourceTree = "<group>"; };
+		70C7791F143BEA2D00D33CA5 /* TwilioAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwilioAppDelegate.h; sourceTree = "<group>"; };
 		70C77920143BEA2D00D33CA5 /* TwilioAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwilioAppDelegate.m; sourceTree = "<group>"; };
 		70C77923143BEA2D00D33CA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		70C7792C143BEA7000D33CA5 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		70C7792D143BEA7000D33CA5 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		70C7792E143BEA7000D33CA5 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		70C7792F143BEA7000D33CA5 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		70C77930143BEA7000D33CA5 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		70C77931143BEA7000D33CA5 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		70C77932143BEA7000D33CA5 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		70C77933143BEA7000D33CA5 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		70C77934143BEA7000D33CA5 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		70C77935143BEA7000D33CA5 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		70C77936143BEA7000D33CA5 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		70C77937143BEA7000D33CA5 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		70C77938143BEA7000D33CA5 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		70C77939143BEA7000D33CA5 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		70C7793A143BEA7000D33CA5 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		70C7793B143BEA7000D33CA5 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		70C7793C143BEA7000D33CA5 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		70C7793D143BEA7000D33CA5 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		70C77947143BEA9700D33CA5 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		70C77949143BEABA00D33CA5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		70C7794B143BEAC300D33CA5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		70C7794D143BF4E500D33CA5 /* Twilinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Twilinator.h; sourceTree = "<group>"; };
+		70C7794E143BF4E500D33CA5 /* Twilinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Twilinator.m; sourceTree = "<group>"; };
+		70C77955143BFB9E00D33CA5 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		70C77956143BFB9E00D33CA5 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		70C77957143BFB9E00D33CA5 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		70C77958143BFB9E00D33CA5 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		70C77959143BFB9E00D33CA5 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		70C7795A143BFB9E00D33CA5 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		70C7795B143BFB9E00D33CA5 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		70C7795C143BFB9E00D33CA5 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		70C7795D143BFB9E00D33CA5 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		70C7795E143BFB9E00D33CA5 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		70C7795F143BFB9E00D33CA5 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		70C77960143BFB9E00D33CA5 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		70C77961143BFB9E00D33CA5 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +89,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70C7794C143BEAC300D33CA5 /* libz.dylib in Frameworks */,
+				70C7794A143BEABA00D33CA5 /* SystemConfiguration.framework in Frameworks */,
+				70C77948143BEA9700D33CA5 /* CoreServices.framework in Frameworks */,
 				70C7790E143BEA2D00D33CA5 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +102,9 @@
 		70C778FE143BEA2B00D33CA5 = {
 			isa = PBXGroup;
 			children = (
+				70C7794B143BEAC300D33CA5 /* libz.dylib */,
+				70C77949143BEABA00D33CA5 /* SystemConfiguration.framework */,
+				70C77947143BEA9700D33CA5 /* CoreServices.framework */,
 				70C77913143BEA2D00D33CA5 /* Twilio */,
 				70C7790C143BEA2C00D33CA5 /* Frameworks */,
 				70C7790A143BEA2C00D33CA5 /* Products */,
@@ -82,10 +141,14 @@
 		70C77913143BEA2D00D33CA5 /* Twilio */ = {
 			isa = PBXGroup;
 			children = (
+				70C77954143BFB8A00D33CA5 /* SBJSON */,
+				70C77946143BEA7500D33CA5 /* ASIHTTPRequest */,
 				70C7791F143BEA2D00D33CA5 /* TwilioAppDelegate.h */,
 				70C77920143BEA2D00D33CA5 /* TwilioAppDelegate.m */,
 				70C77922143BEA2D00D33CA5 /* MainMenu.xib */,
 				70C77914143BEA2D00D33CA5 /* Supporting Files */,
+				70C7794D143BF4E500D33CA5 /* Twilinator.h */,
+				70C7794E143BF4E500D33CA5 /* Twilinator.m */,
 			);
 			path = Twilio;
 			sourceTree = "<group>";
@@ -100,6 +163,51 @@
 				70C7791C143BEA2D00D33CA5 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70C77946143BEA7500D33CA5 /* ASIHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				70C7792C143BEA7000D33CA5 /* ASICacheDelegate.h */,
+				70C7792D143BEA7000D33CA5 /* ASIDataCompressor.h */,
+				70C7792E143BEA7000D33CA5 /* ASIDataCompressor.m */,
+				70C7792F143BEA7000D33CA5 /* ASIDataDecompressor.h */,
+				70C77930143BEA7000D33CA5 /* ASIDataDecompressor.m */,
+				70C77931143BEA7000D33CA5 /* ASIDownloadCache.h */,
+				70C77932143BEA7000D33CA5 /* ASIDownloadCache.m */,
+				70C77933143BEA7000D33CA5 /* ASIFormDataRequest.h */,
+				70C77934143BEA7000D33CA5 /* ASIFormDataRequest.m */,
+				70C77935143BEA7000D33CA5 /* ASIHTTPRequest.h */,
+				70C77936143BEA7000D33CA5 /* ASIHTTPRequest.m */,
+				70C77937143BEA7000D33CA5 /* ASIHTTPRequestConfig.h */,
+				70C77938143BEA7000D33CA5 /* ASIHTTPRequestDelegate.h */,
+				70C77939143BEA7000D33CA5 /* ASIInputStream.h */,
+				70C7793A143BEA7000D33CA5 /* ASIInputStream.m */,
+				70C7793B143BEA7000D33CA5 /* ASINetworkQueue.h */,
+				70C7793C143BEA7000D33CA5 /* ASINetworkQueue.m */,
+				70C7793D143BEA7000D33CA5 /* ASIProgressDelegate.h */,
+			);
+			name = ASIHTTPRequest;
+			sourceTree = "<group>";
+		};
+		70C77954143BFB8A00D33CA5 /* SBJSON */ = {
+			isa = PBXGroup;
+			children = (
+				70C77955143BFB9E00D33CA5 /* JSON.h */,
+				70C77956143BFB9E00D33CA5 /* NSObject+SBJSON.h */,
+				70C77957143BFB9E00D33CA5 /* NSObject+SBJSON.m */,
+				70C77958143BFB9E00D33CA5 /* NSString+SBJSON.h */,
+				70C77959143BFB9E00D33CA5 /* NSString+SBJSON.m */,
+				70C7795A143BFB9E00D33CA5 /* SBJSON.h */,
+				70C7795B143BFB9E00D33CA5 /* SBJSON.m */,
+				70C7795C143BFB9E00D33CA5 /* SBJsonBase.h */,
+				70C7795D143BFB9E00D33CA5 /* SBJsonBase.m */,
+				70C7795E143BFB9E00D33CA5 /* SBJsonParser.h */,
+				70C7795F143BFB9E00D33CA5 /* SBJsonParser.m */,
+				70C77960143BFB9E00D33CA5 /* SBJsonWriter.h */,
+				70C77961143BFB9E00D33CA5 /* SBJsonWriter.m */,
+			);
+			name = SBJSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +272,20 @@
 			files = (
 				70C7791A143BEA2D00D33CA5 /* main.m in Sources */,
 				70C77921143BEA2D00D33CA5 /* TwilioAppDelegate.m in Sources */,
+				70C7793F143BEA7000D33CA5 /* ASIDataCompressor.m in Sources */,
+				70C77940143BEA7000D33CA5 /* ASIDataDecompressor.m in Sources */,
+				70C77941143BEA7000D33CA5 /* ASIDownloadCache.m in Sources */,
+				70C77942143BEA7000D33CA5 /* ASIFormDataRequest.m in Sources */,
+				70C77943143BEA7000D33CA5 /* ASIHTTPRequest.m in Sources */,
+				70C77944143BEA7000D33CA5 /* ASIInputStream.m in Sources */,
+				70C77945143BEA7000D33CA5 /* ASINetworkQueue.m in Sources */,
+				70C7794F143BF4E500D33CA5 /* Twilinator.m in Sources */,
+				70C77962143BFB9E00D33CA5 /* NSObject+SBJSON.m in Sources */,
+				70C77963143BFB9E00D33CA5 /* NSString+SBJSON.m in Sources */,
+				70C77964143BFB9E00D33CA5 /* SBJSON.m in Sources */,
+				70C77965143BFB9E00D33CA5 /* SBJsonBase.m in Sources */,
+				70C77966143BFB9E00D33CA5 /* SBJsonParser.m in Sources */,
+				70C77967143BFB9E00D33CA5 /* SBJsonWriter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
